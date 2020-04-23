@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6 ie"><![endif]--><!--[if IE 7]><html class="ie7 ie"><![endif]--><!--[if IE 8]><html class="ie8 ie"><![endif]--><!--[if IE 9]><html class="ie9 ie"><![endif]-->
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<!-- Mirrored from www.computerhope.com/issues/ch000465.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 17:20:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>NTLDR is Missing error and how to fix it</title>
+<base  />
+<link rel="canonical" href="https://www.computerhope.com/issues/ch000465.htm" />
+<link href="https://www.computerhope.com/cdn/site.css" type="text/css" rel="stylesheet" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta content="How to fix the NTLDR is missing error that can occur when booting a Microsoft Windows computer." name="description" />
+<meta itemprop="name" content="NTLDR is Missing error and how to fix it" />
+<meta itemprop="description" content="How to fix the NTLDR is missing error that can occur when booting a Microsoft Windows computer." />
+<meta property="og:url" content="https://www.computerhope.com/issues/ch000465.htm" />
+<meta property="og:description" content="How to fix the NTLDR is missing error that can occur when booting a Microsoft Windows computer." />
+<meta property="og:title" content="NTLDR is Missing error and how to fix it" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="NTLDR is Missing error and how to fix it" />
+<meta name="twitter:description" content="How to fix the NTLDR is missing error that can occur when booting a Microsoft Windows computer." />
+<meta name="twitter:creator" content="@computerhope" />
+<!--[if lt IE 9]><script src="https://www.computerhope.com/cdn/html5shiv.js"></script><![endif]-->
+<meta property="og:image" content="https://www.computerhope.com/issues/pictures/ntldr.gif" />
+<meta itemprop="image" content="https://www.computerhope.com/issues/pictures/ntldr.gif" />
+<link rel="image_src" href="https://www.computerhope.com/issues/pictures/ntldr.gif" />
+<link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="https://feeds.feedburner.com/LatestNewPagesOnComputerHope" />
+<link rel="apple-touch-icon" href="https://www.computerhope.com/cdn/apple-touch-icon.png" />
+<link rel="shortcut icon" href="https://www.computerhope.com/cdn/favicon.ico" type="image/x-icon" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-126444-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="skip"><a href="#main-content">Skip to Main Content</a></div>
+<div class="wrapper">
+<header class="cf"><a href="https://www.computerhope.com/"><img src="https://www.computerhope.com/cdn/computer-hope.jpg" width="412" height="82" alt="Computer Hope" class="logo"></a><div itemscope itemtype="https://schema.org/SiteNavigationElement"><form action="https://www.computerhope.com/cgi-bin/search.cgi" method="post"><input class="sbar" name="q" title="Search" type="text" accesskey="s" /><button type="Submit">Search</button></form><ul id="nav"><li><a href="https://www.computerhope.com/oh.htm" title="Questions and answers, troubleshooting, and help">Help</a></li><li><a href="https://www.computerhope.com/tips/" title="Computer tips and tricks">Tips</a></li><li><a href="https://www.computerhope.com/jargon.htm" title="Computer terms, jargon, and glossary">Dictionary</a></li><li><a href="https://www.computerhope.com/history/" title="Computer timeline, events, and biographies">History</a></li><li><a href="https://www.computerhope.com/forum/" title="Computer Hope forums and community">Forums</a></li><li><a href="https://www.computerhope.com/contact/" title="Contact Computer Hope or other computer companies">Contact</a></li></ul></div></header>
+<div class="container ad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="7994873325" data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<div class="container"><ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/oh.htm" itemprop="item"><span itemprop="name">Help</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/os.htm" itemprop="item"><span itemprop="name">Operating System</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/jargon/w/windows.htm" itemprop="item"><span itemprop="name">Microsoft Windows Help</span></a><meta itemprop="position" content="4" /></li></ol></div>
+<div class="container content" id="main-content">
+<article>
+<h1 itemprop="headline">NTLDR is missing error and how to fix it</h1>
+<div class="updated">Updated: <span itemprop="dateModified" content="2019-12-30">12/30/2019</span> by <span itemprop="author publisher creator" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">Computer Hope</span></span></div>
+<img src="https://www.computerhope.com/issues/pictures/ntldr.gif" width="300" height="170" alt="NTLDR is missing" class="floatRight"><p class="intro">Below are the full error messages that may be seen when the computer is booting.</p>
+<pre class="tabb">NTLDR is missing
+Press any key to restart</pre>
+<pre class="tabb">Boot: Couldn't find NTLDR<br>Please insert another disk</pre>
+<pre class="tabb">NTLDR is missing<br>Press Ctrl Alt Del to Restart</pre>
+<h2>Computer is booting from a non-bootable source</h2>
+<p class="tab">Many times this error is caused when the computer is attempting to boot from a non-bootable floppy disk or <a href="https://www.computerhope.com/jargon/c/cdrom.htm">CD-ROM</a>. First verify that no <a href="https://www.computerhope.com/jargon/f/floppydi.htm">floppy diskette</a> or CD is in the computer, unless you are attempting to boot from a diskette.</p>
+<div class="tip dtab">
+<span class="title">Note</span>
+<p>This error also occurs when a <a href="https://www.computerhope.com/jargon/m/memocard.htm">memory card</a> is in a <a href="https://www.computerhope.com/jargon/c/cardread.htm">card reader</a>. If you have any card reader or flash reader, make sure that no memory stick is inside the reader. Additionally, disconnect all <a href="https://www.computerhope.com/jargon/u/usb.htm">USB</a> drive, <a href="https://www.computerhope.com/jargon/d/digicame.htm">camera</a>, <a href="https://www.computerhope.com/jargon/i/ipod.htm">iPod</a>, <a href="https://www.computerhope.com/jargon/i/iphone.htm">iPhone</a>, etc. from the computer.</p>
+</div>
+<p class="tab">If this error happens when <a href="https://www.computerhope.com/jargon/b/boot.htm">booting</a> from a floppy diskette, it doesn't have all the necessary files or is corrupt.</p>
+<p class="tab">If you're trying to install Windows XP or Windows 2000 and getting this error message, verify that your computer <a href="https://www.computerhope.com/jargon/b/bios.htm">BIOS</a> has the proper boot settings. For example, if you're attempting to run the install from the CD-ROM, make sure it's the first device listed in the <a href="https://www.computerhope.com/jargon/b/bootsequ.htm">boot sequence</a>.</p>
+<p class="tab">Also, when the computer is booting, you should receive the below prompt:</p>
+<h3 class="tab">Press any key to boot from the CD</h3>
+<div class="tip dtab">
+<span class="title">Important</span>
+<p>When you see this prompt, press <a href="https://www.computerhope.com/jargon/a/anykey.htm">any key</a> on the keyboard immediately, such as the Enter or Space key. Otherwise, the computer will try booting from the hard drive and likely get the NTLDR error again.</p>
+</div>
+<div class="tip dtab">
+<span class="title">Note</span>
+<p>If you're not receiving the above message and your BIOS boot options are set properly, it&#39;s also possible that your CD-ROM drive may not be booting from the CD properly. Verify the jumpers are set properly on the CD-ROM drive.</p>
+</div>
+<ul class="arrow noprint">
+<li><a href="https://www.computerhope.com/issues/ch000213.htm">Verifying the CD-ROM cables are correctly connected.</a></li>
+</ul>
+<h2>Computer hard drive is not properly setup in CMOS</h2>
+<p class="tab">Verify that your computer <a href="https://www.computerhope.com/jargon/h/harddriv.htm">hard drive</a> is properly set up in the <a href="https://www.computerhope.com/issues/ch000192.htm">CMOS setup</a>. Improper settings can cause this error.</p>
+<h2>Corrupt NTLDR or NTDETECT.COM file</h2>
+<p class="tab"><a href="#win2000">Windows 2000 users.</a><br> <a href="#winxp">Windows XP users.</a></p>
+<h3 class="tab" id="win2000">Windows 2000 users</h3>
+<p class="tab">If your computer is using Microsoft Windows 2000 and you are encountering the NTLDR error, create the below <a href="https://www.computerhope.com/issues/ch000492.htm">boot.ini</a> file on the floppy diskette drive.</p>
+<pre class="dtab tcy">[boot loader]
+timeout=30
+default=multi(0)disk(0)rdisk(0)partition(1)\WINNT
+[operating systems]
+multi(0)disk(0)rdisk(0)partition(1)\WINNT=&quot;Microsoft Windows 2000 Professional&quot; /fastdetect</pre>
+<p class="tab">Copy the NTLDR and NTDETECT.COM files from another computer using the same operating system. Both of these files are located in the <a href="https://www.computerhope.com/jargon/r/root.htm">root</a> directory of the primary hard drive. For example, C:\NTLDR and C:\NTDETECT.COM should be the locations of these files on many computers.</p>
+<ul class="arrow noprint">
+<li><a href="https://www.computerhope.com/issues/ch000516.htm">How do I view hidden files in Windows?</a></li>
+</ul>
+<p class="tab">After copying the files to a floppy diskette, reboot the computer and copy the NTLDR and NTDETECT.COM files to the root directory of the primary hard drive. Below is an example of the commands that should be performed from the A:\&gt; floppy drive to copy the files.</p>
+<pre class="dtab tcy">copy ntldr c:
+copy ntdetect.com c:</pre>
+<p class="tab">After the above two files are copied, remove the floppy diskette and reboot the computer.</p>
+<h3 class="tab" id="winxp">Windows XP users</h3>
+<ol>
+<li>Insert the Windows XP bootable CD into the computer.</li>
+<li>When prompted to press any key to boot from the CD, press any key on the keyboard.</li>
+<li>Once in the Windows XP setup menu, press the &quot;R&quot; key to repair Windows.</li>
+<li>Log into your Windows installation by pressing the &quot;1&quot; key and pressing Enter.</li>
+<li>You will then be prompted for your administrator password. Enter that password.</li>
+<li>Copy the below two files to the <a href="https://www.computerhope.com/jargon/r/root.htm">root</a> directory of the primary hard drive. In the example below, we are copying these files from the CD-ROM drive letter, which in this case is &quot;e.&quot; This letter may be different on your computer.</li>
+</ol>
+<pre class="dtab tcy">copy e:\i386\ntldr c:\
+copy e:\i386\ntdetect.com c:\</pre>
+<ol start="7">
+<li>Once both of these files are copied, remove the CD from the computer and reboot.</li>
+</ol>
+<h2>Misconfiguration with the boot.ini file</h2>
+<p class="tab"><a href="https://www.computerhope.com/issues/ch000492.htm">Edit the boot.ini</a> on the <a href="https://www.computerhope.com/jargon/r/root.htm">root</a> directory and verify it's pointing to the correct location and that the <a href="https://www.computerhope.com/jargon/p/partition.htm">partitions</a> are properly defined.</p>
+<h2>Attempting to upgrade from a Windows 95, 98, or ME computer that is using FAT32</h2>
+<p class="tab">You may receive this error message when trying to upgrade to Windows 2000 or Windows XP from <a href="https://www.computerhope.com/jargon/w/win95.htm">Windows 95</a>, <a href="https://www.computerhope.com/jargon/w/win98.htm">Windows 98</a>, or <a href="https://www.computerhope.com/jargon/w/winme.htm">Windows ME</a> running <a href="https://www.computerhope.com/fat32.htm">FAT32</a>. If so, try the below recommendations.</p>
+<ol>
+<li>Boot the computer with a Windows 95, Windows 98 or Windows ME <a href="https://www.computerhope.com/boot.htm">bootable diskette</a>.</li>
+<li>At the A:\&gt; prompt, type <b>sys c:</b> and press Enter.</li>
+<li>After pressing Enter, you should receive the &quot;System Transferred&quot; message. Once this is completed, remove the floppy diskette and reboot the computer.</li>
+</ol>
+<h2>New hard drive being added</h2>
+<p class="tab">If you are attempting to add a new <a href="https://www.computerhope.com/jargon/h/harddriv.htm">hard drive</a> to the computer, make sure the drive is a blank drive. Adding a new hard drive to a computer that already has Windows installed on it may cause the NTLDR error to occur.</p>
+<p class="tab">If you are unsure if the new drive is blank, try booting from a <a href="https://www.computerhope.com/boot.htm">bootable diskette</a> and format the new hard drive.</p>
+<h2>Corrupt boot sector or master boot record</h2>
+<p class="tab">It&#39;s possible your computer&#39;s hard drive may have a corrupt boot sector or master boot record. These can be repaired through the <a href="https://www.computerhope.com/issues/ch000627.htm">Microsoft Windows Recovery Console</a> by running the <b>fixboot</b> and <b>fixmbr</b> commands.</p>
+<h2>Seriously corrupted version of Windows 2000 or Windows XP</h2>
+<p class="tab">If, after trying the above recommendations you continue to receive the NTLDR error, there may be a more serious corruption issue in Microsoft Windows. Therefore, we would recommend reinstalling Microsoft Windows.</p>
+<p class="tab">If you are encountering this issue during your setup, you may want to completely <a href="https://www.computerhope.com/issues/ch000186.htm">erase your computer hard drive and all its existing data and reinstall Microsoft Windows</a>.</p>
+<h2>Loose or faulty IDE/EIDE hard drive cable</h2>
+<p class="tab">This issue is known to be caused by a loose or defective IDE/EIDE cable. If your hard drive uses an <a href="https://www.computerhope.com/jargon/i/ide.htm">IDE</a> or <a href="https://www.computerhope.com/jargon/e/eide.htm">EIDE</a> interface, check that the computer hard drive cable is firmly connected. Disconnect and then reconnect the cable, making sure that the connection is snug and secure.</p>
+<p class="tab">If the issue continues, it's possible that the cable is bad, replace the hard drive cable with another cable or a new cable.</p>
+<h2>Bad hard drive</h2>
+<p class="tab">If none of the above suggestions resolve the issue, there's a strong possibility the <a href="https://www.computerhope.com/jargon/h/harddriv.htm">hard drive</a> is bad and needs to be replaced. You can try installing a new hard drive and installing Windows on that hard drive to see if that resolves the issue.</p>
+<div class="additional">
+<h4>Additional information</h4>
+<ul class="additional-information">
+<li>See the <a href="https://www.computerhope.com/jargon/n/ntldr.htm">NTLDR</a> definition for further information and related links.</li>
+<li><a href="https://www.computerhope.com/jargon/w/windows.htm">Microsoft Windows help and support.</a></li>
+</ul>
+</div>
+</article>
+<div class="bottomad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="6514780129" data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<div class="related">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="9849691723" data-ad-format="autorelaxed"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+<div id="meta_wrap" class="cf"><ul class="options cf"><li class="useful-page"><span class="nolink">Was this page useful?</span><a href="https://www.computerhope.com/cgi-bin/feedback.cgi?yes" rel="nofollow" class="first-child">Yes</a><a href="https://www.computerhope.com/cgi-bin/feedback.cgi?no" rel="nofollow">No</a></li><li><ul><li class="feedback"><a href="https://www.computerhope.com/feedback/" rel="nofollow" title="Give us your feedback about this page">Feedback</a></li><li class="email"><a href="https://www.computerhope.com/contact/" rel="nofollow" title="E-mail Computer Hope">E-mail</a></li><li class="share"><a href="https://www.computerhope.com/share/" rel="nofollow" title="Share this page with friends and social networks">Share</a></li><li class="first-child print"><a href="#" onclick="window.print();return false;" rel="nofollow" title="Print a copy of this page">Print</a></li></ul></li></ul></div>
+</div>
+<footer><form action="https://www.computerhope.com/cgi-bin/search.cgi" method="post" class="cf"><input class="sbar" name="q" title="Search" type="text" /><button type="Submit">Search</button></form><ul class="cf"><li class="recent-pages"><ol><li class="widget-title"><h5>Recently added pages</h5></li><li id="ra1"></li><li id="ra2"></li><li id="ra3"></li><li id="ra4"></li><li id="ra5"></li><li><a href="https://www.computerhope.com/whatnew.htm">View all recent updates</a></li></ol></li><li class="useful-links"><ol><li class="widget-title"><h5>Useful links</h5></li><li><a href="https://www.computerhope.com/more.htm">About Computer Hope</a></li><li><a href="https://www.computerhope.com/sindex.htm">Site Map</a></li><li><a href="https://www.computerhope.com/forum/">Forum</a></li><li><a href="https://www.computerhope.com/contact/">Contact Us</a></li><li><a href="https://www.computerhope.com/issues/ch000586.htm">How to Help</a></li><li><a href="https://www.computerhope.com/chtop10.htm">Top 10 pages</a></li></ol></li><li class="social-networks"><ol><li class="widget-title first-child"><h5>Follow us</h5></li><li><a href="https://www.facebook.com/computerhope/" class="facebook">Facebook</a></li><li><a href="https://twitter.com/computerhope/" class="twitter">Twitter</a></li><li><a href="https://www.pinterest.com/computerhope/" class="pinterest">Pinterest</a></li><li><a href="https://www.youtube.com/user/Computerhope/" class="youtube">YouTube</a></li><li><a href="https://www.computerhope.com/rss.htm" class="rss">RSS</a></li></ol></li></ul><div class="copyright">&copy; 2020 Computer Hope<br><a href="https://www.computerhope.com/legal.htm" class="legal">Legal Disclaimer - Privacy Statement</a></div></footer>
+</div>
+<script async src="https://www.computerhope.com/recent.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://www.computerhope.com/cdn/site.js"></script>
+<script async src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=computerhope"></script>
+</body>
+
+<!-- Mirrored from www.computerhope.com/issues/ch000465.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 17:20:03 GMT -->
+</html>

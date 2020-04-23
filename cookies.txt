@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.computerhope.com	TRUE	/	FALSE	1999999999	__cfduid	ddcd234370a82da6e3213dd7ff7f72ddb1582132593
+www.computerhope.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.computerhope.com	TRUE	/	FALSE	1999999999	PHPSESSID	qkp5jge5ebtg2iichqjgj6pf25
+

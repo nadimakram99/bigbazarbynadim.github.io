@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6 ie"><![endif]--><!--[if IE 7]><html class="ie7 ie"><![endif]--><!--[if IE 8]><html class="ie8 ie"><![endif]--><!--[if IE 9]><html class="ie9 ie"><![endif]-->
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<!-- Mirrored from www.computerhope.com/issues/ch000192.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 17:20:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>How to enter the BIOS or CMOS setup</title>
+<base  />
+<link rel="canonical" href="https://www.computerhope.com/issues/ch000192.htm" />
+<link href="https://www.computerhope.com/cdn/site.css" type="text/css" rel="stylesheet" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta content="Help and information with entering the BIOS setup or CMOS setup." name="description" />
+<meta itemprop="name" content="How to enter the BIOS or CMOS setup" />
+<meta itemprop="description" content="Help and information with entering the BIOS setup or CMOS setup." />
+<meta property="og:url" content="https://www.computerhope.com/issues/ch000192.htm" />
+<meta property="og:description" content="Help and information with entering the BIOS setup or CMOS setup." />
+<meta property="og:title" content="How to enter the BIOS or CMOS setup" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="How to enter the BIOS or CMOS setup" />
+<meta name="twitter:description" content="Help and information with entering the BIOS setup or CMOS setup." />
+<meta name="twitter:creator" content="@computerhope" />
+<!--[if lt IE 9]><script src="https://www.computerhope.com/cdn/html5shiv.js"></script><![endif]-->
+<meta property="og:image" content="https://www.computerhope.com/jargon/c/cmosset.jpg" />
+<meta itemprop="image" content="https://www.computerhope.com/jargon/c/cmosset.jpg" />
+<link rel="image_src" href="https://www.computerhope.com/jargon/c/cmosset.jpg" />
+<link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="https://feeds.feedburner.com/LatestNewPagesOnComputerHope" />
+<link rel="apple-touch-icon" href="https://www.computerhope.com/cdn/apple-touch-icon.png" />
+<link rel="shortcut icon" href="https://www.computerhope.com/cdn/favicon.ico" type="image/x-icon" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-126444-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="skip"><a href="#main-content">Skip to Main Content</a></div>
+<div class="wrapper">
+<header class="cf"><a href="https://www.computerhope.com/"><img src="https://www.computerhope.com/cdn/computer-hope.jpg" width="412" height="82" alt="Computer Hope" class="logo"></a><div itemscope itemtype="https://schema.org/SiteNavigationElement"><form action="https://www.computerhope.com/cgi-bin/search.cgi" method="post"><input class="sbar" name="q" title="Search" type="text" accesskey="s" /><button type="Submit">Search</button></form><ul id="nav"><li><a href="https://www.computerhope.com/oh.htm" title="Questions and answers, troubleshooting, and help">Help</a></li><li><a href="https://www.computerhope.com/tips/" title="Computer tips and tricks">Tips</a></li><li><a href="https://www.computerhope.com/jargon.htm" title="Computer terms, jargon, and glossary">Dictionary</a></li><li><a href="https://www.computerhope.com/history/" title="Computer timeline, events, and biographies">History</a></li><li><a href="https://www.computerhope.com/forum/" title="Computer Hope forums and community">Forums</a></li><li><a href="https://www.computerhope.com/contact/" title="Contact Computer Hope or other computer companies">Contact</a></li></ul></div></header>
+<div class="container ad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="7994873325" data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+<div class="container"><ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/oh.htm" itemprop="item"><span itemprop="name">Help</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/hardqa.htm" itemprop="item"><span itemprop="name">Hardware Help</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.computerhope.com/help/cmos.htm" itemprop="item"><span itemprop="name">CMOS Help</span></a><meta itemprop="position" content="4" /></li></ol></div>
+<div class="container content" id="main-content">
+<article>
+<h1 itemprop="headline">How to enter the BIOS or CMOS setup</h1>
+<div class="updated">Updated: <span itemprop="dateModified" content="2019-12-30">12/30/2019</span> by <span itemprop="author publisher creator" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">Computer Hope</span></span></div>
+<p class="intro">Because of the wide variety of computer and BIOS manufacturers over the evolution of computers, there are numerous ways to enter the <a href="https://www.computerhope.com/jargon/b/bios.htm">BIOS</a> or <a href="https://www.computerhope.com/jargon/c/cmos.htm">CMOS</a> setup. Below is a listing of most of these methods, as well as other recommendations for entering the BIOS setup.</p>
+<div class="tip">
+<span class="title">Note</span>
+<p>Apple (Mac) computers don't have a BIOS and instead utilize an <a href="https://www.computerhope.com/jargon/e/efi.htm">EFI</a>, which does not need to modify based on the hardware in the computer, like a BIOS. The EFI provides better integration between hardware and software for Apple computers, virtually eliminating the need for a BIOS.</p>
+</div>
+<div class="tip">
+<span class="title">Note</span>
+<p>This document does not help if you <a href="https://www.computerhope.com/issues/ch000235.htm">cannot enter the CMOS setup because it is password-protected</a>.</p>
+</div>
+<h2>New computers</h2>
+<p class="tab">Computers manufactured in the last few years allow you to enter the BIOS setup using one of the five keys shown below during the <a href="https://www.computerhope.com/jargon/b/boot.htm">boot</a> process.</p>
+<ul>
+<li>F1</li>
+<li>F2 *</li>
+<li>F10 **</li>
+<li><a href="https://www.computerhope.com/jargon/d/delete.htm">Del</a></li>
+<li><a href="https://www.computerhope.com/jargon/e/esc.htm">Esc</a></li>
+</ul>
+<div class="tip tab">
+<span class="title">Note</span>
+<p>F1, F2, and F10 are all <a href="https://www.computerhope.com/jargon/f/funckeys.htm">function keys</a> on the top of the keyboard.</p>
+</div>
+<p class="dtab">* If pressing F2 opens a diagnostics tool, your setup key is likely F10</p>
+<p class="dtab">** F10 is also used for the <a href="https://www.computerhope.com/jargon/b/boot_menu.htm">boot menu</a>. If F10 opens a boot menu, your setup key is likely F2.</p>
+<p class="tab">Setup keys are to be pressed as the computer is booting up. Most users see a message similar to the example below upon startup. Some older computers may also display a flashing block to indicate when to press the F1 or F2 keys.</p>
+<pre class="tab tcy">Press &lt;F2&gt; to enter BIOS setup</pre>
+<div class="tip tab">
+<span class="title">Tip</span>
+<p>If you're unsure of what key to press, as the computer boots try pressing and holding one or more keys on the keyboard to cause a stuck key error. Once you get this error, you should have the option to continue or enter setup.</p>
+</div>
+<div class="tip tab">
+<span class="title">Note</span>
+<p>If you are still unable to enter the BIOS using the methods listed above, check the motherboard's <a href="https://www.computerhope.com/jargon/m/manual.htm">manual</a> for the appropriate key to enter BIOS. Documentation for the motherboard may also be found on the manufacturer's website.</p>
+</div>
+<p class="tab">Once you have successfully entered the CMOS setup, you should see a screen similar to the example below. Your CMOS setup may look different, depending on the manufacturer, but should still share a lot of the same options and information.</p>
+<p class="ce"><img src="https://www.computerhope.com/jargon/c/cmosset.jpg" width="400" height="303" alt="CMOS setup screen" class="resize400"></p>
+<h3 class="tab">How do I change and save changes in CMOS setup?</h3>
+<p class="tab">Once in CMOS setup, the method for changing the settings often depends on the BIOS manufacturer. You may use the <a href="https://www.computerhope.com/jargon/a/arrowkey.htm">arrow keys</a> along with the Enter key to select categories and change their values. Some manufacturers may have you press the <a href="https://www.computerhope.com/jargon/p/pgupkey.htm">Page up</a> and <a href="https://www.computerhope.com/jargon/p/pgdnkey.htm">Page down</a> keys to change the values.</p>
+<div class="tip tab">
+<span class="title">Tip</span>
+<p>All manufacturers show which keys navigate on the bottom or right side of the screen.</p>
+</div>
+<h3 class="tab">I cannot change the values to a setting I want to use</h3>
+<p class="tab">If you're trying to change the clock, speed, or other settings and don't have the option available, it's because the <a href="https://www.computerhope.com/jargon/m/mothboar.htm">motherboard</a> doesn't support it. If you believe it should be supported, you may need a <a href="https://www.computerhope.com/issues/ch000236.htm">BIOS update</a>.</p>
+<div class="tip tab">
+<span class="title">Tip</span>
+<p>If changes you made appear to revert to default settings or the date and time setting in the BIOS keeps falling behind, you may need to <a href="https://www.computerhope.com/issues/ch000239.htm">replace the CMOS battery</a>.</p>
+</div>
+<h3 class="tab">How do I save the changes?</h3>
+<p class="tab">If any changes are made, you need to save those changes, which is usually done by pressing the F10 key on the keyboard. If F10 doesn't work, look at the bottom or top of the screen for the key that is used to save the settings.</p>
+<h2>Older computers</h2>
+<p class="tab">Unlike the computers of today, older computers (before <a href="https://www.computerhope.com/history/1995.htm">1995</a>) had numerous methods of entering the BIOS setup. Below is a listing of key sequences to press as the computer is booting to enter the BIOS setup.</p>
+<ul>
+<li>Ctrl+Alt+Esc</li>
+<li>Ctrl+Alt+Ins</li>
+<li>Ctrl+Alt+Enter</li>
+<li>Ctrl+Alt+S</li>
+<li>Page Up key</li>
+<li>Page Down key</li>
+</ul>
+<h3 class="tab">Acer BIOS</h3>
+<p class="tab">If your Acer computer cannot boot or you want to restore the BIOS to its original settings, press and hold the F10 key as you turn on the computer. While continuing to hold the F10 key, you should hear two beeps indicating that the settings are restored.</p>
+<h3 class="tab">AMI BIOS</h3>
+<p class="tab">Older AMI BIOS could be restored to bootable settings by pressing and holding the <a href="https://www.computerhope.com/jargon/i/insertke.htm">Insert key</a> as the computer is booting.</p>
+<h3 class="tab">BIOS or CMOS diskettes</h3>
+<p class="tab">Early <a href="https://www.computerhope.com/jargon/num/80486.htm">486</a>, <a href="https://www.computerhope.com/jargon/num/80386.htm">386</a>, and <a href="https://www.computerhope.com/jargon/num/80286.htm">286</a> computers required a floppy disk to enter the BIOS setup. These diskettes may be referred to as ICU, BBU, or SCU disks. Because these diskettes are unique to your computer manufacturer, you must obtain the diskettes from them. See the <a href="https://www.computerhope.com/network/computer.htm">computer manufacturers list</a> for contact information.</p>
+<h2>Early IBM computers</h2>
+<p class="tab">Some early IBM computers require you to press and hold both <a href="https://www.computerhope.com/jargon/m/mouse.htm">mouse</a> buttons as the computer boots to enter the BIOS setup.</p>
+<h2>Other suggestions</h2>
+<p class="tab">Finally, if none of the above suggestions allow access to your CMOS setup, try generating a stuck key error, which gives an option to enter the CMOS setup. To do this, press and hold any key on the keyboard and do not let go (you may get several beeps as you are doing this). Keep pressing the key until the computer stops booting, and you have the option to enter setup. If this does not work make sure your <a href="https://www.computerhope.com/jargon/k/keyboard.htm">keyboard</a> is working.</p>
+<div class="additional">
+<h4>Additional information</h4>
+<ul class="additional-information">
+<li><a href="https://www.computerhope.com/issues/ch000976.htm">How do I reset CMOS or BIOS settings?</a></li>
+<li><a href="https://www.computerhope.com/issues/ch000301.htm">Prompt to press F1/F2 each time computer boots.</a></li>
+<li><a href="https://www.computerhope.com/issues/ch001360.htm">What is the difference between BIOS and CMOS?</a></li>
+<li>See the <a href="https://www.computerhope.com/jargon/c/cmos.htm">CMOS</a> and <a href="https://www.computerhope.com/jargon/b/bios.htm">BIOS</a> definitions for further information and related links.</li>
+<li><a href="https://www.computerhope.com/help/bios.htm">BIOS help and support.</a></li>
+<li><a href="https://www.computerhope.com/help/cmos.htm">CMOS help and support.</a></li>
+</ul>
+</div>
+</article>
+<div class="bottomad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="6514780129" data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<div class="related">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="9849691723" data-ad-format="autorelaxed"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+<div id="meta_wrap" class="cf"><ul class="options cf"><li class="useful-page"><span class="nolink">Was this page useful?</span><a href="https://www.computerhope.com/cgi-bin/feedback.cgi?yes" rel="nofollow" class="first-child">Yes</a><a href="https://www.computerhope.com/cgi-bin/feedback.cgi?no" rel="nofollow">No</a></li><li><ul><li class="feedback"><a href="https://www.computerhope.com/feedback/" rel="nofollow" title="Give us your feedback about this page">Feedback</a></li><li class="email"><a href="https://www.computerhope.com/contact/" rel="nofollow" title="E-mail Computer Hope">E-mail</a></li><li class="share"><a href="https://www.computerhope.com/share/" rel="nofollow" title="Share this page with friends and social networks">Share</a></li><li class="first-child print"><a href="#" onclick="window.print();return false;" rel="nofollow" title="Print a copy of this page">Print</a></li></ul></li></ul></div>
+</div>
+<footer><form action="https://www.computerhope.com/cgi-bin/search.cgi" method="post" class="cf"><input class="sbar" name="q" title="Search" type="text" /><button type="Submit">Search</button></form><ul class="cf"><li class="recent-pages"><ol><li class="widget-title"><h5>Recently added pages</h5></li><li id="ra1"></li><li id="ra2"></li><li id="ra3"></li><li id="ra4"></li><li id="ra5"></li><li><a href="https://www.computerhope.com/whatnew.htm">View all recent updates</a></li></ol></li><li class="useful-links"><ol><li class="widget-title"><h5>Useful links</h5></li><li><a href="https://www.computerhope.com/more.htm">About Computer Hope</a></li><li><a href="https://www.computerhope.com/sindex.htm">Site Map</a></li><li><a href="https://www.computerhope.com/forum/">Forum</a></li><li><a href="https://www.computerhope.com/contact/">Contact Us</a></li><li><a href="https://www.computerhope.com/issues/ch000586.htm">How to Help</a></li><li><a href="https://www.computerhope.com/chtop10.htm">Top 10 pages</a></li></ol></li><li class="social-networks"><ol><li class="widget-title first-child"><h5>Follow us</h5></li><li><a href="https://www.facebook.com/computerhope/" class="facebook">Facebook</a></li><li><a href="https://twitter.com/computerhope/" class="twitter">Twitter</a></li><li><a href="https://www.pinterest.com/computerhope/" class="pinterest">Pinterest</a></li><li><a href="https://www.youtube.com/user/Computerhope/" class="youtube">YouTube</a></li><li><a href="https://www.computerhope.com/rss.htm" class="rss">RSS</a></li></ol></li></ul><div class="copyright">&copy; 2020 Computer Hope<br><a href="https://www.computerhope.com/legal.htm" class="legal">Legal Disclaimer - Privacy Statement</a></div></footer>
+</div>
+<script async src="https://www.computerhope.com/recent.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://www.computerhope.com/cdn/site.js"></script>
+<script async src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=computerhope"></script>
+</body>
+
+<!-- Mirrored from www.computerhope.com/issues/ch000192.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 17:20:04 GMT -->
+</html>
